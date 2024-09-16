@@ -12,4 +12,4 @@ else:
  x_totalBill == x_initialBill * ( 1 + 0.01 * x_tipValue)
  x_initialBill= input("What is your bill total?")
  print("How was the service?")
- input( )
+ input("Bad, Okay, Good, Great")
