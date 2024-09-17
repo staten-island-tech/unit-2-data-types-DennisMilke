@@ -1,12 +1,3 @@
-## Odd/Even identifiers
-
-""" x = input("Pick a number:")
-if int(x) % 2 == 0:
-    print("even")
-else:
-    print("odd")
- """
-
 
 x_initialBill = input("What is your bill total?")
 x_tipValue = input("How was the service? Bad , Okay , Good , Great " )

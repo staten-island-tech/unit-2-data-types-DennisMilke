@@ -18,7 +18,7 @@ step 1 (excluding total)
 - Calculate the total that needs to be paid
 - Print the f string after the user has input data
 # Lists
-These ints and floats can be stored in lists to let you manage complexitymore easily. Try the following code and check the output. 
+These ints and floats can be stored in lists to let you manage complexity more easily. Try the following code and check the output. 
 ```python
 values = [1,2.23,5,7,2,30,15]
 print(values)
@@ -95,8 +95,11 @@ else:
 What will happen when we run the above code? 
 
 ## Challenge
+
 Let's create a function that determines if a number is odd or even
+
 ## Challenge
+
 Let's create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending on if the service was "bad, okay, good , or great ". 
 
 ## Challenge
