@@ -43,7 +43,7 @@ factor1st_list = []
 for x in range(int(x_1stInteger)):
     if (int(x_1stInteger) % x == 0):
         factor1st_list.append(x)
-        print
+print(factor1st_list)
 
         print(list(factor))
 for y in range(x_2ndInteger):
