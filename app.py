@@ -35,16 +35,20 @@ for i in range(int(x_integer)):
 
 ## Greatest common factor function
 
+
+
+factor1st_list = []
+factor2nd_list = []
+
 x_1stInteger = input("Choose a Number")
 x_2ndInteger = input("Choose Another Number")
 
-factor1st_list = []
-
 for x in range(int(x_1stInteger)):
-    if (int(x_1stInteger) % x == 0):
+    if (x) > 0 and (int(x_1stInteger) % x == 0):
         factor1st_list.append(x)
-        print
+print(factor1st_list)
+for y in range(int(x_2ndInteger)):
+    if (y) > 0 and (int(x_2ndInteger) % y == 0):
+        factor2nd_list.append(y)
+print(factor2nd_list)
 
-        print(list(factor))
-for y in range(x_2ndInteger):
-    if ()
