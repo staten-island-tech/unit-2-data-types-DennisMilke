@@ -37,18 +37,19 @@ for i in range(int(x_integer)):
 
 
 
-factor1st_list = []
-factor2nd_list = []
+factor1st = []
+factor2nd = []
 
 x_1stInteger = input("Choose a Number")
 x_2ndInteger = input("Choose Another Number")
 
+
 for x in range(int(x_1stInteger)):
     if (x) > 0 and (int(x_1stInteger) % x == 0):
-        factor1st_list.append(x)
-print(factor1st_list)
+        factor1st.append(x)
+
 for y in range(int(x_2ndInteger)):
     if (y) > 0 and (int(x_2ndInteger) % y == 0):
-        factor2nd_list.append(y)
-print(factor2nd_list)
+        factor2nd.append(y)
 
+if 
