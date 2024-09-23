@@ -39,17 +39,29 @@ for i in range(int(x_integer)):
 
 factor1st = []
 factor2nd = []
+x_Gcommonfac = [] 
 
 x_1stInteger = input("Choose a Number")
 x_2ndInteger = input("Choose Another Number")
-
 
 for x in range(int(x_1stInteger)):
     if (x) > 0 and (int(x_1stInteger) % x == 0):
         factor1st.append(x)
 
+
 for y in range(int(x_2ndInteger)):
     if (y) > 0 and (int(x_2ndInteger) % y == 0):
         factor2nd.append(y)
 
-if 
+## Try to identify two similar values in both lists##
+for i in (factor1st) and (factor2nd):
+    if (i) > (int(x_1stInteger)) or (int(x_2ndInteger)):
+        not x_Gcommonfac.append(i)
+    else:
+        x_Gcommonfac.append(i)
+
+print(factor1st)
+print(factor2nd)
+
+print((x_Gcommonfac))
+    
